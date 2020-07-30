@@ -1,0 +1,74 @@
+*{margin: 0;padding: 0;
+	-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #333333;
+	background: #f8f8fa;
+}
+b{
+	font-weight: normal;
+}
+i{
+	font-style: normal;
+}
+a,a:hover,a:active{
+	text-decoration: none;
+	color: #333333;
+}
+input,textarea,select{
+	outline:none;
+	border: none;
+}
+img{
+	border: none;
+	vertical-align:middle;
+}
+li{
+	list-style: none;
+}
+.cl{
+	clear: both;
+}
+.clear::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+ul::after{
+	content: "";
+	display: table;
+	clear: both; 
+}
+
+/*input修改提示文字的颜色*/
+input::-webkit-input-placeholder { /* WebKit browsers */ 
+color: #ccc; 
+} 
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #ccc; 
+} 
+input::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #ccc;
+} 
+input:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #ccc;
+} 
+input:-ms-textarea-placeholder { /* Internet Explorer 10+ */ 
+color: #ccc;
+} 
+textarea::-webkit-input-placeholder{
+   color: #ccc;
+}
+textarea::-moz-placeholder{   /* Mozilla Firefox 19+ */
+	color: #ccc;
+}
+textarea:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+	color: #ccc;
+}
+textarea:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+	color: #ccc;
+}
